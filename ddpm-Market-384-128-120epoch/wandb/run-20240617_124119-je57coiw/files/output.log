@@ -1,0 +1,23 @@
+
+Launching training on 2 GPUs.
+[2024-06-17 12:41:36,205] torch.distributed.elastic.agent.server.api: [WARNING] Received Signals.SIGINT death signal, shutting down workers
+[2024-06-17 12:41:36,207] torch.distributed.elastic.multiprocessing.api: [WARNING] Closing process 32609 via signal SIGINT
+[2024-06-17 12:41:36,208] torch.distributed.elastic.multiprocessing.api: [WARNING] Closing process 32610 via signal SIGINT
+Traceback (most recent call last):
+  File "/workspace/train_ddpm/test_train.py", line 258, in <module>
+    notebook_launcher(train_loop, args, num_processes=2)
+  File "/opt/conda/lib/python3.10/site-packages/accelerate/launchers.py", line 239, in notebook_launcher
+    elastic_launch(config=launch_config, entrypoint=function)(*args)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 259, in launch_agent
+    result = agent.run()
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/elastic/metrics/api.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 727, in run
+    result = self._invoke_run(role)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 868, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 62, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 32569 got signal: 2

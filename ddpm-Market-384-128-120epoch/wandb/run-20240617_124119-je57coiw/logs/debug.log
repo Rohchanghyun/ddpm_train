@@ -1,0 +1,56 @@
+2024-06-17 12:41:19,446 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-17 12:41:19,446 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Configure stats pid to 32569
+2024-06-17 12:41:19,446 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Loading settings from /workspace/train_ddpm/wandb/settings
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_train.py', 'program_abspath': '/workspace/train_ddpm/test_train.py', 'program': '/workspace/train_ddpm/test_train.py'}
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_init.py:_log_setup():520] Logging user logs to ddpm-Market-384-128-120epoch/wandb/run-20240617_124119-je57coiw/logs/debug.log
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_init.py:_log_setup():521] Logging internal logs to ddpm-Market-384-128-120epoch/wandb/run-20240617_124119-je57coiw/logs/debug-internal.log
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_init.py:init():560] calling init triggers
+2024-06-17 12:41:19,447 INFO    MainThread:32569 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-17 12:41:19,448 INFO    MainThread:32569 [wandb_init.py:init():610] starting backend
+2024-06-17 12:41:19,448 INFO    MainThread:32569 [wandb_init.py:init():614] setting up manager
+2024-06-17 12:41:19,451 INFO    MainThread:32569 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-17 12:41:19,453 INFO    MainThread:32569 [wandb_init.py:init():622] backend started and connected
+2024-06-17 12:41:19,457 INFO    MainThread:32569 [wandb_init.py:init():711] updated telemetry
+2024-06-17 12:41:19,458 INFO    MainThread:32569 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-17 12:41:20,127 INFO    MainThread:32569 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-17 12:41:20,274 INFO    MainThread:32569 [wandb_run.py:_on_init():2411] got version response 
+2024-06-17 12:41:20,274 INFO    MainThread:32569 [wandb_init.py:init():795] starting run threads in backend
+2024-06-17 12:41:23,006 INFO    MainThread:32569 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-17 12:41:23,007 INFO    MainThread:32569 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-17 12:41:23,007 INFO    MainThread:32569 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-17 12:41:23,007 INFO    MainThread:32569 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-17 12:41:23,008 INFO    MainThread:32569 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-17 12:41:24,124 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-17 12:41:24,124 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Configure stats pid to 32609
+2024-06-17 12:41:24,124 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-06-17 12:41:24,124 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Loading settings from /workspace/train_ddpm/wandb/settings
+2024-06-17 12:41:24,124 WARNING MainThread:32609 [wandb_setup.py:_flush():76] Unknown environment variable: WANDB_SERVICE
+2024-06-17 12:41:24,124 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-17 12:41:24,124 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-17 12:41:24,125 INFO    MainThread:32609 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_train.py', 'program_abspath': '/workspace/train_ddpm/test_train.py', 'program': '/workspace/train_ddpm/test_train.py'}
+2024-06-17 12:41:24,125 INFO    MainThread:32609 [wandb_init.py:_log_setup():520] Logging user logs to /workspace/train_ddpm/wandb/run-20240617_124124-b7aybw2x/logs/debug.log
+2024-06-17 12:41:24,125 INFO    MainThread:32609 [wandb_init.py:_log_setup():521] Logging internal logs to /workspace/train_ddpm/wandb/run-20240617_124124-b7aybw2x/logs/debug-internal.log
+2024-06-17 12:41:24,125 INFO    MainThread:32609 [wandb_init.py:init():560] calling init triggers
+2024-06-17 12:41:24,126 INFO    MainThread:32609 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-17 12:41:24,126 INFO    MainThread:32609 [wandb_init.py:init():610] starting backend
+2024-06-17 12:41:24,126 INFO    MainThread:32609 [wandb_init.py:init():614] setting up manager
+2024-06-17 12:41:24,129 INFO    MainThread:32609 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-17 12:41:24,130 INFO    MainThread:32609 [wandb_init.py:init():622] backend started and connected
+2024-06-17 12:41:24,140 INFO    MainThread:32609 [wandb_init.py:init():711] updated telemetry
+2024-06-17 12:41:24,141 INFO    MainThread:32609 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-17 12:41:24,857 INFO    MainThread:32609 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-17 12:41:24,997 INFO    MainThread:32609 [wandb_run.py:_on_init():2411] got version response 
+2024-06-17 12:41:24,997 INFO    MainThread:32609 [wandb_init.py:init():795] starting run threads in backend
+2024-06-17 12:41:27,665 INFO    MainThread:32609 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-17 12:41:27,665 INFO    MainThread:32609 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-17 12:41:27,665 INFO    MainThread:32609 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-17 12:41:27,665 INFO    MainThread:32609 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-17 12:41:27,666 INFO    MainThread:32609 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-17 12:41:30,295 INFO    MainThread:32610 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-17 12:41:43,054 WARNING MsgRouterThr:32569 [router.py:message_loop():77] message_loop has been closed
